@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC</title>
+</head>
+<body>
+    <script>
+        console.log('A');
+        // muestra de codigo asincrono, si queremos que B se ejecute en dos segundos, invocamos setTimeout, que recibe una funcio y un delay, esto va a la lista de tareas, que se ejecuta despues de que js termine de ejecutar su codigo, asi le coloquemos cero segundos, ya estara en la lista de tareas, osea se ejecutara despues.
+        setTimeout(() => console.log('B'), 2000);
+        console.log('C');
+    </script>
+</body>
+</html>
